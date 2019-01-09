@@ -1,0 +1,19 @@
+version: '2'
+services:
+  samba:
+    image: dperson/samba
+    tty: true
+    command: '-u "hac425;123456" -s "www;/share/;yes;yes;no;all;none"'
+    volumes:
+      - ./flag_part1:/share/
+  tomcat:
+    image: medicean/vulapps:t_tomcat_1
+    tty: true
+    volumes:
+      - ./flag_part2:/flag
+  php:
+    build: .
+    volumes:
+      - ./www:/var/www/html
+    ports:
+      - "8004:80"

@@ -1,0 +1,9 @@
+# Challenge configuration
+name: password_checker
+type: pwn
+value: 1000
+description: >
+        安全函数误用也会产生问题！
+flag: flag{sec_functi0n_abu3e@f1ag}
+image: true
+

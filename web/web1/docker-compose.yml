@@ -1,0 +1,6 @@
+version: '2'
+services:
+  web1:
+    build: .
+    ports:
+      - "8001:80"

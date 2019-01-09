@@ -1,0 +1,1 @@
+Put the challenge file and flag to bin folder when building your docker.

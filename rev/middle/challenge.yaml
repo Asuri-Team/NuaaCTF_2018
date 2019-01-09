@@ -1,0 +1,10 @@
+# Challenge configuration
+name: middle
+type: rev
+value: 1000
+description: >
+        easy?hard?maybe middle...
+
+flag: nuaactf{Haa!You_G0t_1t!}
+image: false
+

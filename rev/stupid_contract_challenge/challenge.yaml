@@ -1,0 +1,10 @@
+name: stupid_contract_challenge              # Challenge name
+type: contract                       # Challenge type (web,pwn,misc,rev,mobile,crypto etc.)
+value: 1000
+description: >
+            An simple contract reverse at https://rinkeby.etherscan.io/address/0x3835a2cd4782a2a55143e1e0f295e20b936f344e#events.
+            Don't be afraid,just try it!
+flag: flag{Stupid_Contract_Challenge!}     # Correct flag
+hints:                          # Hints for current challenge
+
+image: false                     # Shoule build docker image for this challenge

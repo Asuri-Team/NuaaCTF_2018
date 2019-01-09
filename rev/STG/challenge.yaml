@@ -1,0 +1,14 @@
+# Challenge configuration
+name: STG TouHou
+type: rev
+value: 1000
+description: >
+        欢迎来到nuaactf！这是一道夹杂了车万私货（划掉）的Rev！
+        向我展示你的STG底力吧！
+
+hints:
+    - 击破boss的所有符卡吧!什么?你想要全屏玩?你问我干啥，问程序呀
+    - 或者逆向也能解决问题呢
+flag: nuaactf{We1c0m3_2_G3nS0K4o}
+image: false
+

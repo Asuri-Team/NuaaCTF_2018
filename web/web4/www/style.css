@@ -1,0 +1,30 @@
+/* *{
+	background-color:black;
+} */
+
+img{
+	border-radius: 60px;
+	width: 160px;
+	height: 160px;
+	padding: 10px;
+	background-color: white;
+	box-shadow: 15px 15px 15px rgba(50,50,50,0.99);
+	position: absolute;
+	/*绝对定位--利用Left可以手动调整照片位置*/
+	/*加入动画效果*/
+	transition: all 1s ease-in;
+}
+
+img:hover{
+	box-shadow: 35px 35px 35px rgba(50,50,50,0.8);
+	transform: rotate(0deg) scale(1.5);
+	z-index: 1;/*代表图片层级，将其设置为最上面的图层*/
+}
+div{
+	width: 160px;
+	height: 160px;
+}
+
+.pic1{
+	transform: rotate(30deg);
+}
